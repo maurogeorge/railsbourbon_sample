@@ -1,6 +1,6 @@
 # railsbourbon_sample
 
-This project is a [Rails](http://rubyonrails.org/) application used to SOMETHING.
+This project is a [Rails](http://rubyonrails.org/) application used to show how to start with [Bourbon](http://bourbon.io) and his family.
 
 ## Dependencies
 
