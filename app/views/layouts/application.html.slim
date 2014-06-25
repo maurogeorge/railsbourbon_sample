@@ -15,5 +15,6 @@ html lang="pt"
     = csrf_meta_tags
 
   body class=body_class
+    = render 'flash_messages'
     = yield
 

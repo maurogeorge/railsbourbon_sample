@@ -13,3 +13,7 @@
 %flash-success {
   @include flash($success-color);
 }
+
+#flash_notice {
+  @extend %flash-notice;
+}
