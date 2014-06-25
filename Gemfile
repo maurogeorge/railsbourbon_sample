@@ -23,6 +23,8 @@ gem 'flutie',                 '2.0.0'
 gem 'newrelic_rpm',           '3.8.0.218'
 gem 'bourbon',                '3.2.1'
 gem 'neat',                   '1.5.1'
+gem 'bitters',                '0.10.0'
+
 
 group :production do
   gem 'rails_12factor',       '0.0.2'
