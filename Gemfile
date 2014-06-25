@@ -18,10 +18,10 @@ gem 'coffee-rails',           '4.0.1'
 gem 'uglifier',               '2.5.0'
 gem 'rack-canonical-host',    '0.1.0'
 gem 'rack-timeout',           github: 'kch/rack-timeout', ref: '83ca9f5141c1fdcb626820b1601c406e3a3a560a'
-gem 'bourbon',                '3.1.8'
 gem 'simple_form',            '3.1.0.rc1'
 gem 'flutie',                 '2.0.0'
 gem 'newrelic_rpm',           '3.8.0.218'
+gem 'bourbon',                '3.2.1'
 
 group :production do
   gem 'rails_12factor',       '0.0.2'
