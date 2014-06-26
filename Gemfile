@@ -24,6 +24,7 @@ gem 'newrelic_rpm',           '3.8.0.218'
 gem 'bourbon',                '3.2.1'
 gem 'neat',                   '1.5.1'
 gem 'bitters',                '0.10.0'
+gem 'refills',                '0.0.2'
 
 
 group :production do

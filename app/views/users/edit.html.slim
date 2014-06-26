@@ -1,8 +1,7 @@
 h1 Editing user
 
+.button-group
+  = link_to 'Show', @user
+  = link_to 'Back', users_path
+
 == render 'form'
-
-= link_to 'Show', @user
-'|
-= link_to 'Back', users_path
-
