@@ -1,0 +1,15 @@
+#header {
+  @include outer-container;
+  padding: rem(14) 0;
+  margin-bottom: rem(20);
+
+  h1 {
+    font-family: 'Ubuntu', $sans-serif;
+    color: $orange;
+
+    img {
+      vertical-align: middle;
+      margin-right: em(10);
+    }
+  }
+}
