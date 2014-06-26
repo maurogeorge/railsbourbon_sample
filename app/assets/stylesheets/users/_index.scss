@@ -1,0 +1,18 @@
+.users-index {
+
+  section {
+    @include outer-container;
+
+    #main-content {
+      @include span-columns(9);
+    }
+
+    aside {
+      @include span-columns(3);
+
+      h1 {
+        font-size: $base-font-size * 1.5;
+      }
+    }
+  }
+}
