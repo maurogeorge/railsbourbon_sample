@@ -5,3 +5,12 @@
 p
   strong Name:
   = @user.name
+p
+  strong Birthday:
+  = l @user.birthday, format: :short
+p
+  strong Admin:
+  = @user.admin
+p
+  strong About:
+  = simple_format @user.about

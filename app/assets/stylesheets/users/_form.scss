@@ -1,0 +1,35 @@
+.users .simple_form {
+  @include outer-container;
+
+
+  .user_birthday {
+    select {
+      display: inline;
+    }
+  }
+
+  .user_name {
+    @include span-columns(5);
+  }
+
+  .user_birthday {
+    @include span-columns(5);
+  }
+
+  .user_admin {
+    @include span-columns(2);
+    @include omega();
+
+    .radio {
+      margin-right: em(10);
+
+      label {
+        display: inline;
+      }
+    }
+  }
+
+  .user_about, .form-actions {
+    @include span-columns(12);
+  }
+}

@@ -1,8 +1,9 @@
 = simple_form_for(@user) do |f|
   = f.error_notification
-
-  .form-inputs
-    = f.input :name
+  = f.input :name
+  = f.input :birthday
+  = f.input :admin, as: :radio_buttons
+  = f.input :about
 
   .form-actions
     = f.button :submit
